@@ -54,7 +54,7 @@
 
     <!-- Login Modal -->
     <div id="loginModal" class="modal">
-        <form action="">
+        <form action="thankyou.html" method="GET" name="loginForm">
             <div class="modal-content">
                 <h4 class="center">Login</h4>
                 <div class="container">
@@ -63,14 +63,14 @@
                             <div class="row">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">account_circle</i>
-                                    <input type="text" id="username" class="autocomplete" required autocomplete autofocus>
+                                    <input type="text" id="username" name="username" class="autocomplete" required autocomplete autofocus>
                                     <label for="username">Username</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">lock</i>
-                                    <input type="password" id="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{6,}" required title="Password Requirements - 1) One Uppercase 2) One lowercase 3) Must be 6 characters long">
+                                    <input type="password" id="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{6,}" required title="Password Requirements - 1) One Uppercase 2) One lowercase 3) Must be 6 characters long">
                                     <label for="password">Password</label>
                                 </div>
                             </div>
